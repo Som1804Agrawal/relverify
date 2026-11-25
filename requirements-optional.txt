@@ -1,0 +1,1 @@
+PyKCS11>=1.5  # only for --key pkcs11:... (hardware keys); not needed for anything else

@@ -1,0 +1,21 @@
+{
+  "publishers": [
+    {
+      "name": "Acme",
+      "key_id": "79f52947c04648fd",
+      "alg": "ed25519",
+      "public_key": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA/ZS7Q3E+VXTHQCa46jjltZqFSk2p/FECEUrAcsnIiNo=\n-----END PUBLIC KEY-----\n",
+      "fingerprint": "79f52947c04648fdc432a2b551e40add5ea40adbf8cfb9b8b67a266c10bf3f37",
+      "not_before": "2026-11-25T07:01:00Z",
+      "not_after": "2027-11-25T07:01:00Z",
+      "revoked": false,
+      "key_usage": [
+        "release",
+        "delegate",
+        "revocation"
+      ]
+    }
+  ],
+  "revocation_numbers": {},
+  "log_heads": {}
+}

@@ -1,0 +1,13 @@
+{
+  "manifest": {
+    "package": "app",
+    "publisher": "Acme",
+    "version": "1.0.0",
+    "sha256": "d036eecd4917a682ea94570fb6f7a6b306494bcaa54916113072c098b8902875",
+    "key_id": "79f52947c04648fd",
+    "timestamp": "2026-11-25T07:01:32Z",
+    "expiry": "2027-02-23T07:01:32Z"
+  },
+  "alg": "ed25519",
+  "signature": "JwYRcYz0Fs0yxQ1oURA5945pRph9suHknp17xQciqF+a1DuFdTJ/ordrREsNn8+cavo2XfFxpd/+/5Db7mIWAA=="
+}
