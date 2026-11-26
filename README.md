@@ -1,5 +1,4 @@
 # Software Release Verification Tool
-*Project 18 · PKI and trust services · Classes A, B and C*
 
 Validates a downloaded software package against a publisher-signed manifest and a local trust store **before installation**. Any failure blocks the install.
 
@@ -209,7 +208,7 @@ New commands: `recover`, `lock-status`, `lock-break [--force]`.
 
 **Limits of this round.** PID-based stale detection can be fooled by PID reuse (hence no automatic lock removal). The Windows branch of the PID check and the permission checks are not exercised on Windows here. Deleting `key_usage` from a trust record falls back to the old default rights, which only matters to an attacker who can already edit the trust store. The journal and state are local files, so they are trusted as much as the trust store is.
 
-## Limitations (worth stating in your report)
+## Limitations
 - The trust store and `state.json` are plain files; protect them with OS permissions or sign them.
 - Revocation lists are files you must fetch yourself; there is no online CRL/OCSP service. (A local flag is still available.)
 - Private keys are unencrypted unless `keygen --passphrase` is used; use an HSM in production.
